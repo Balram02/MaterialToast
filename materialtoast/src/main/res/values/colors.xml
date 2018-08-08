@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="error">#ba2020</color>
+
+    <color name="alert">#e6510d</color>
+
+    <color name="success">#157808</color>
+
+    <color name="failure">#019cfc</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="purple">#562ced</color>
+
+</resources>
