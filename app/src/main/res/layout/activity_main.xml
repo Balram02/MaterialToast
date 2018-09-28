@@ -15,7 +15,7 @@
 
     <RadioGroup
         android:id="@+id/rGroup"
-        android:orientation="horizontal">
+        android:orientation="vertical">
         <RadioButton
             android:id="@+id/CSquare"
             android:layout_width="wrap_content"
@@ -29,6 +29,20 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:text="Oval"/>
+
+        <RadioButton
+            android:id="@+id/CLeftMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Left Message"/>
+
+        <RadioButton
+            android:id="@+id/CRightMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Right Message"/>
 
     </RadioGroup>
 
@@ -75,51 +89,5 @@
             android:text="SUCCESS" />
 
     </TableRow>
-<!--
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="20dp">
-
-        <Button
-            android:id="@+id/t5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Toast 1" />
-
-        <Button
-            android:id="@+id/t6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Toast 2" />
-
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="20dp">
-
-        <Button
-            android:id="@+id/t7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Toast 1" />
-
-        <Button
-            android:id="@+id/t8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Toast 2" />
-
-    </TableRow>
--->
 
 </TableLayout>
