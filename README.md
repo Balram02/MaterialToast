@@ -16,12 +16,16 @@ allprojects {
 	}
   ```
 ## ScreenShots
-<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213424.png" width="300" />
-<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213429.png" width="300" />
-<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213753.png" width="300" />
+<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213424.png"
+width="280" style="margin:10px;"/>
+<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213429.png"
+width="280" style="margin:10px;"/>
+<img src="https://github.com/Balram02/MaterialToast/blob/master/Screenshot_MaterialToast-example_20180808-213753.png"
+width="280" style="margin:10px;"/>
+
 
 ## Description
-**Single Method**
+**Method**
 ```
 createToast(int ToastType, String CustomText, int ToastShape)
 ```
@@ -32,4 +36,4 @@ MaterialToast materialToast = new MaterialToast(MainActivity.this,MaterialToast.
     materialToast.show();
 ```
 **__NOTE:__** It is inherited from Toast class so all the methods from Toast class are already present.
-Give it a :star:
+Made with :heart: by [Balram02](https://github.com/Balram02)
